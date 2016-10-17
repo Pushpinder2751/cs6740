@@ -1,0 +1,10 @@
+This is a simple client-server broadcast chat application.
+
+Server Listens for new clients. Clients join by sending a GREETINGS message
+
+Server then broadcast all the messages from each client. It uses UDP sockets.
+
+In client, I have used socket.socket to look for change in input/STDIN instead
+of multiple threads.
+
+Recipt : dTVttb9645yzCUvfHaV7QirHNXOhcrui3IvIDw9pRLM=
